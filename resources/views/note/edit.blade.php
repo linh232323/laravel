@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Note</title>
+    </head>
+    <body>
+        {!!Form::model($data,array('route'=>array('note.update',$data->id),'method'=>'PUT'))!!}
+        {!!Form::label('title','Title')!!}
+        {!!Form::text('title')!!}
+        <br/>
+        {!!Form::label('info','Infomation')!!}
+        {!!Form::textarea('info')!!}
+        <br/>
+        {!!Form::submit('Submit')!!}
+        {!!Form::close()!!}
+    </body>
+</html>

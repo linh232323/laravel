@@ -1,0 +1,1 @@
+<footer id="footer"><a href="">Zin</a> © 2009-2015 All Rights Reserved.<br>Version 0.1</footer>
